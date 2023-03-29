@@ -33,6 +33,11 @@
     <!-- Home -->
     <section class="home" id="home">
         
+            <div class="home-img">
+                <img src="icons/main.jpeg">
+            </div>
+            
+        
         <div class="home-text">
 
             <h1>Hello, I'm <span><br>Sagar Kumar Ojha.</span></h1>
@@ -54,9 +59,9 @@
 
         <h1 class="section-head">About</h1>
 
-        <div class="about">
+        <div class="about_card">
             <div class="home-img">
-                <img src="icons/main.jpeg" alt="">
+                <img src="icons/main.jpeg">
             </div>
             
             <div class="about-text">
@@ -90,7 +95,7 @@
   
         <div class="skills-wrapper">
 
-            <div class="icon-card">
+            <div class="skills-card">
                 <img class="skills-card-img"
                   style="border-radius: 50%"
                   src="icons/springboot.png"
@@ -100,7 +105,7 @@
                 <h2 class="skills-card-name">Spring Boot</h2>
               </div>
 
-          <div class="icon-card">
+          <div class="skills-card">
             <img class="skills-card-img"
               src="icons/java.png"
               alt="Java"
@@ -110,7 +115,7 @@
             <h2  class="skills-card-name">Java</h2>
           </div>
   
-          <div class="icon-card">
+          <div class="skills-card">
             <img class="skills-card-img"
               src="icons/hibernate.png"
               alt="hibernate"
@@ -120,7 +125,7 @@
             <h2 class="skills-card-name">Hibernate</h2>
           </div>
   
-          <div class="icon-card">
+          <div class="skills-card">
             <img class="skills-card-img"
               src="icons/mysql.png"
               alt="My SQL"
@@ -130,7 +135,7 @@
             <h2 class="skills-card-name">My SQL</h2>
           </div>
   
-          <div class="icon-card">
+          <div class="skills-card">
             <img class="skills-card-img"
               src="icons/Swagger.png"
               alt="Swagger"
@@ -140,7 +145,7 @@
             <h2 class="skills-card-name">Swagger</h2>
           </div>
   
-          <div class="icon-card">
+          <div class="skills-card">
             <img class="skills-card-img"
               src="icons/lombok.png"
               alt="lombok"
@@ -150,7 +155,7 @@
             <h2 class="skills-card-name">Lombok</h2>
           </div>
   
-          <div class="icon-card">
+          <div class="skills-card">
             <img class="skills-card-img"
               src="icons/restful.png"
               alt="RESTful API"
@@ -161,7 +166,7 @@
           </div>
   
 <!--   
-          <div class="icon-card">
+          <div class="skills-card">
             <img
               src="icons/aws.png"
               alt="AWS"
@@ -171,7 +176,7 @@
             <h2  class="skills-card-name">AWS</h2>
           </div>
    -->
-          <div class="icon-card">
+          <div class="skills-card">
             <img class="skills-card-img"
               src="icons/maven.png"
               alt="maven"
@@ -181,7 +186,7 @@
             <h2 class="skills-card-name">Maven</h2>
           </div>
   
-          <div class="icon-card">
+          <div class="skills-card">
             <img  class="skills-card-img"
               src="icons/js.png"
               alt="Javascript"
@@ -191,7 +196,7 @@
             <h2 class="skills-card-name">Javascript</h2>
           </div>
   
-          <div class="icon-card">
+          <div class="skills-card">
             <img class="skills-card-img"
               src="icons/html.png"
               alt="HTML"
@@ -201,7 +206,7 @@
             <h2  class="skills-card-name">HTML</h2>
           </div>
   
-          <div class="icon-card">
+          <div class="skills-card">
             <img class="skills-card-img"
               src="icons/css.png"
               alt="CSS"
@@ -211,7 +216,7 @@
             <h2 class="skills-card-name">CSS</h2>
           </div>
   
-          <div class="icon-card">
+          <div class="skills-card">
             <img class="skills-card-img"
               src="icons/Bootstrap.png"
               alt="Bootstrap"
@@ -222,7 +227,7 @@
           </div>
   
   
-          <div class="icon-card">
+          <div class="skills-card">
             <img class="skills-card-img"
               src="icons/dsa.png"
               alt="Data Structure & Algorithm "
@@ -232,7 +237,7 @@
             <h2 class="skills-card-name">DSA</h2>
           </div>
   
-          <div class="icon-card">
+          <div class="skills-card">
             <img class="skills-card-img"
               src="icons/git.png"
               alt="Git & Github"
@@ -242,7 +247,7 @@
             <h2 class="skills-card-name">Git & Github</h2>
           </div>
   
-          <!-- <div class="icon-card">
+          <!-- <div class="skills-card">
             <img class="skills-card-img"
               src="icons/eclipse.png"
               alt="Eclipse"
@@ -252,7 +257,7 @@
             <h2 class="skills-card-name">Eclipse</h2>
           </div> -->
   
-          <div class="icon-card">
+          <div class="skills-card">
             <img class="skills-card-img"
               src="icons/vscode.png"
               alt="VS Code"
@@ -262,7 +267,7 @@
             <h2 class="skills-card-name">VS Code</h2>
           </div>
 <!--   
-          <div class="icon-card">
+          <div class="skills-card">
             <img class="skills-card-img"
               style="border-radius: 50%"
               src="icons/netlify.png"
@@ -278,9 +283,10 @@
     <!-- Projects -->
 
     <section id="projects">
+        <h1 class="section-head"> Projects</h1>  
         <div class="project__container">
         
-            <h2 class="project-head"> Projects</h2>
+        
             
             <!-- project 1 -->
             <div  class="project-card">
@@ -294,8 +300,8 @@
                     </div>
                 </div>
                 <div class="project__right">
-                    <div class="project__title">
-                        <h3>BusEase - Bus Reservation System Portal</h3>
+                    <div >
+                        <h3 class="project-title">BusEase - Bus Reservation System Portal</h3>
                         <p>Build Restful api for Bus Reservation System Portal.</p>
                         <p  class="project-description" >This was a group project.We had built an Application for Online Bus Reservation System Portal 
                             where Customer should be able to view the list of available Buses . 
@@ -317,188 +323,183 @@
                 </div>
             </div>
     
+   <!-- project 2 -->
+   <div  class="project-card">
+    <div class="project__left">
+        <div class="project__img">
+            <img id="" src="icons/main.jpeg" alt="easytrip-logo">
+        </div>
+        <div class="project-tech-stack">             
+            <p>Tech-stacks : JAVA, SPRINGBOOT, HIBERNET, SPRING DATA JPA, MySQL</p>
+            
+        </div>
+    </div>
+    <div class="project__right">
+        <div >
+            <h3 class="project-title">BusEase - Bus Reservation System Portal</h3>
+            <p>Build Restful api for Bus Reservation System Portal.</p>
+            <p  class="project-description" >This was a group project.We had built an Application for Online Bus Reservation System Portal 
+                where Customer should be able to view the list of available Buses . 
+                Customer should be able to book tickets according to locations and date.
+            </p>
+            <ul>
+                <li><span style="font-weight: bold;"> Features</span></li>
+                <li>Login and Logout </li>
+                <li>Admin module</li>
+                <li>Customer module</li>
+                <li>Customer can book bus</li>
+                <li>Total booking cost</li>
+            </ul>
+        </div>
+        <div class="project__buttons">
+            <a class="project-github-link" href="#" target="_blank"><button >Github </button></a>
+            <a class="project-deployed-link" href="#" target="_blank"><button > Demo Video</button></a>
+        </div>
+    </div>
+</div>
 
-                       
-            <!-- project 2-->
-            <div  class="project-card">
-                <div class="project__left">
-                    <div class="project__img">
-                        <img id="" src="icons/main.jpeg" alt="easytrip-logo">
-                    </div>
-                    <div class="project-tech-stack">             
-                        <p>Tech-stacks : JAVA, SPRINGBOOT, HIBERNET, SPRING DATA JPA, MySQL</p>
-                        
-                    </div>
-                </div>
-                <div class="project__right">
-                    <div class="project__title">
-                        <h3>BusEase - Bus Reservation System Portal</h3>
-                        <p>Build Restful api for Bus Reservation System Portal.</p>
-                        <p  class="project-description" >This was a group project.We had built an Application for Online Bus Reservation System Portal 
-                            where Customer should be able to view the list of available Buses . 
-                            Customer should be able to book tickets according to locations and date.
-                        </p>
-                        <ul>
-                            <li><span style="font-weight: bold;"> Features</span></li>
-                            <li>Login and Logout </li>
-                            <li>Admin module</li>
-                            <li>Customer module</li>
-                            <li>Customer can book bus</li>
-                            <li>Total booking cost</li>
-                        </ul>
-                    </div>
-                    <div class="project__buttons">
-                        <a class="project-github-link" href="#" target="_blank"><button >Github </button></a>
-                        <a class="project-deployed-link" href="#" target="_blank"><button > Demo Video</button></a>
-                    </div>
-                </div>
-            </div>
-    
+   <!-- project 3 -->
+   <div  class="project-card">
+    <div class="project__left">
+        <div class="project__img">
+            <img id="" src="icons/main.jpeg" alt="easytrip-logo">
+        </div>
+        <div class="project-tech-stack">             
+            <p>Tech-stacks : JAVA, SPRINGBOOT, HIBERNET, SPRING DATA JPA, MySQL</p>
+            
+        </div>
+    </div>
+    <div class="project__right">
+        <div >
+            <h3 class="project-title">BusEase - Bus Reservation System Portal</h3>
+            <p>Build Restful api for Bus Reservation System Portal.</p>
+            <p  class="project-description" >This was a group project.We had built an Application for Online Bus Reservation System Portal 
+                where Customer should be able to view the list of available Buses . 
+                Customer should be able to book tickets according to locations and date.
+            </p>
+            <ul>
+                <li><span style="font-weight: bold;"> Features</span></li>
+                <li>Login and Logout </li>
+                <li>Admin module</li>
+                <li>Customer module</li>
+                <li>Customer can book bus</li>
+                <li>Total booking cost</li>
+            </ul>
+        </div>
+        <div class="project__buttons">
+            <a class="project-github-link" href="#" target="_blank"><button >Github </button></a>
+            <a class="project-deployed-link" href="#" target="_blank"><button > Demo Video</button></a>
+        </div>
+    </div>
+</div>
 
-                       
-            <!-- project 3 -->
-            <div  class="project-card">
-                <div class="project__left">
-                    <div class="project__img">
-                        <img id="" src="icons/main.jpeg" alt="easytrip-logo">
-                    </div>
-                    <div class="project-tech-stack">             
-                        <p>Tech-stacks : JAVA, SPRINGBOOT, HIBERNET, SPRING DATA JPA, MySQL</p>
-                        
-                    </div>
-                </div>
-                <div class="project__right">
-                    <div class="project__title">
-                        <h3>BusEase - Bus Reservation System Portal</h3>
-                        <p>Build Restful api for Bus Reservation System Portal.</p>
-                        <p  class="project-description" >This was a group project.We had built an Application for Online Bus Reservation System Portal 
-                            where Customer should be able to view the list of available Buses . 
-                            Customer should be able to book tickets according to locations and date.
-                        </p>
-                        <ul>
-                            <li><span style="font-weight: bold;"> Features</span></li>
-                            <li>Login and Logout </li>
-                            <li>Admin module</li>
-                            <li>Customer module</li>
-                            <li>Customer can book bus</li>
-                            <li>Total booking cost</li>
-                        </ul>
-                    </div>
-                    <div class="project__buttons">
-                        <a class="project-github-link" href="#" target="_blank"><button >Github </button></a>
-                        <a class="project-deployed-link" href="#" target="_blank"><button > Demo Video</button></a>
-                    </div>
-                </div>
-            </div>
-    
-            <!-- project 4 -->
-            <div  class="project-card">
-                <div class="project__left">
-                    <div class="project__img">
-                        <img id="" src="icons/main.jpeg" alt="easytrip-logo">
-                    </div>
-                    <div class="project-tech-stack">             
-                        <p>Tech-stacks : JAVA, SPRINGBOOT, HIBERNET, SPRING DATA JPA, MySQL</p>
-                        
-                    </div>
-                </div>
-                <div class="project__right">
-                    <div class="project__title">
-                        <h3>BusEase - Bus Reservation System Portal</h3>
-                        <p>Build Restful api for Bus Reservation System Portal.</p>
-                        <p  class="project-description" >This was a group project.We had built an Application for Online Bus Reservation System Portal 
-                            where Customer should be able to view the list of available Buses . 
-                            Customer should be able to book tickets according to locations and date.
-                        </p>
-                        <ul>
-                            <li><span style="font-weight: bold;"> Features</span></li>
-                            <li>Login and Logout </li>
-                            <li>Admin module</li>
-                            <li>Customer module</li>
-                            <li>Customer can book bus</li>
-                            <li>Total booking cost</li>
-                        </ul>
-                    </div>
-                    <div class="project__buttons">
-                        <a class="project-github-link" href="#" target="_blank"><button >Github </button></a>
-                        <a class="project-deployed-link" href="#" target="_blank"><button > Demo Video</button></a>
-                    </div>
-                </div>
-            </div>
-    
+   <!-- project 4 -->
+   <div  class="project-card">
+    <div class="project__left">
+        <div class="project__img">
+            <img id="" src="icons/main.jpeg" alt="easytrip-logo">
+        </div>
+        <div class="project-tech-stack">             
+            <p>Tech-stacks : JAVA, SPRINGBOOT, HIBERNET, SPRING DATA JPA, MySQL</p>
+            
+        </div>
+    </div>
+    <div class="project__right">
+        <div >
+            <h3 class="project-title">BusEase - Bus Reservation System Portal</h3>
+            <p>Build Restful api for Bus Reservation System Portal.</p>
+            <p  class="project-description" >This was a group project.We had built an Application for Online Bus Reservation System Portal 
+                where Customer should be able to view the list of available Buses . 
+                Customer should be able to book tickets according to locations and date.
+            </p>
+            <ul>
+                <li><span style="font-weight: bold;"> Features</span></li>
+                <li>Login and Logout </li>
+                <li>Admin module</li>
+                <li>Customer module</li>
+                <li>Customer can book bus</li>
+                <li>Total booking cost</li>
+            </ul>
+        </div>
+        <div class="project__buttons">
+            <a class="project-github-link" href="#" target="_blank"><button >Github </button></a>
+            <a class="project-deployed-link" href="#" target="_blank"><button > Demo Video</button></a>
+        </div>
+    </div>
+</div>
 
-                       
-            <!-- project 5 -->
-            <div  class="project-card">
-                <div class="project__left">
-                    <div class="project__img">
-                        <img id="" src="icons/main.jpeg" alt="easytrip-logo">
-                    </div>
-                    <div class="project-tech-stack">             
-                        <p>Tech-stacks : JAVA, SPRINGBOOT, HIBERNET, SPRING DATA JPA, MySQL</p>
-                        
-                    </div>
-                </div>
-                <div class="project__right">
-                    <div class="project__title">
-                        <h3>BusEase - Bus Reservation System Portal</h3>
-                        <p>Build Restful api for Bus Reservation System Portal.</p>
-                        <p  class="project-description" >This was a group project.We had built an Application for Online Bus Reservation System Portal 
-                            where Customer should be able to view the list of available Buses . 
-                            Customer should be able to book tickets according to locations and date.
-                        </p>
-                        <ul>
-                            <li><span style="font-weight: bold;"> Features</span></li>
-                            <li>Login and Logout </li>
-                            <li>Admin module</li>
-                            <li>Customer module</li>
-                            <li>Customer can book bus</li>
-                            <li>Total booking cost</li>
-                        </ul>
-                    </div>
-                    <div class="project__buttons">
-                        <a class="project-github-link" href="#" target="_blank"><button >Github </button></a>
-                        <a class="project-deployed-link" href="#" target="_blank"><button > Demo Video</button></a>
-                    </div>
-                </div>
-            </div>
-    
+   <!-- project 5 -->
+   <div  class="project-card">
+    <div class="project__left">
+        <div class="project__img">
+            <img id="" src="icons/main.jpeg" alt="easytrip-logo">
+        </div>
+        <div class="project-tech-stack">             
+            <p>Tech-stacks : JAVA, SPRINGBOOT, HIBERNET, SPRING DATA JPA, MySQL</p>
+            
+        </div>
+    </div>
+    <div class="project__right">
+        <div >
+            <h3 class="project-title">BusEase - Bus Reservation System Portal</h3>
+            <p>Build Restful api for Bus Reservation System Portal.</p>
+            <p  class="project-description" >This was a group project.We had built an Application for Online Bus Reservation System Portal 
+                where Customer should be able to view the list of available Buses . 
+                Customer should be able to book tickets according to locations and date.
+            </p>
+            <ul>
+                <li><span style="font-weight: bold;"> Features</span></li>
+                <li>Login and Logout </li>
+                <li>Admin module</li>
+                <li>Customer module</li>
+                <li>Customer can book bus</li>
+                <li>Total booking cost</li>
+            </ul>
+        </div>
+        <div class="project__buttons">
+            <a class="project-github-link" href="#" target="_blank"><button >Github </button></a>
+            <a class="project-deployed-link" href="#" target="_blank"><button > Demo Video</button></a>
+        </div>
+    </div>
+</div>
 
-                       
-            <!-- project 6 -->
-            <div  class="project-card">
-                <div class="project__left">
-                    <div class="project__img">
-                        <img id="" src="icons/main.jpeg" alt="easytrip-logo">
-                    </div>
-                    <div class="project-tech-stack">             
-                        <p>Tech-stacks : JAVA, SPRINGBOOT, HIBERNET, SPRING DATA JPA, MySQL</p>
-                        
-                    </div>
-                </div>
-                <div class="project__right">
-                    <div class="project__title">
-                        <h3>BusEase - Bus Reservation System Portal</h3>
-                        <p>Build Restful api for Bus Reservation System Portal.</p>
-                        <p  class="project-description" >This was a group project.We had built an Application for Online Bus Reservation System Portal 
-                            where Customer should be able to view the list of available Buses . 
-                            Customer should be able to book tickets according to locations and date.
-                        </p>
-                        <ul>
-                            <li><span style="font-weight: bold;"> Features</span></li>
-                            <li>Login and Logout </li>
-                            <li>Admin module</li>
-                            <li>Customer module</li>
-                            <li>Customer can book bus</li>
-                            <li>Total booking cost</li>
-                        </ul>
-                    </div>
-                    <div class="project__buttons">
-                        <a class="project-github-link" href="#" target="_blank"><button >Github </button></a>
-                        <a class="project-deployed-link" href="#" target="_blank"><button > Demo Video</button></a>
-                    </div>
-                </div>
-            </div>
+   <!-- project 6 -->
+   <div  class="project-card">
+    <div class="project__left">
+        <div class="project__img">
+            <img id="" src="icons/main.jpeg" alt="easytrip-logo">
+        </div>
+        <div class="project-tech-stack">             
+            <p>Tech-stacks : JAVA, SPRINGBOOT, HIBERNET, SPRING DATA JPA, MySQL</p>
+            
+        </div>
+    </div>
+    <div class="project__right">
+        <div >
+            <h3 class="project-title">BusEase - Bus Reservation System Portal</h3>
+            <p>Build Restful api for Bus Reservation System Portal.</p>
+            <p  class="project-description" >This was a group project.We had built an Application for Online Bus Reservation System Portal 
+                where Customer should be able to view the list of available Buses . 
+                Customer should be able to book tickets according to locations and date.
+            </p>
+            <ul>
+                <li><span style="font-weight: bold;"> Features</span></li>
+                <li>Login and Logout </li>
+                <li>Admin module</li>
+                <li>Customer module</li>
+                <li>Customer can book bus</li>
+                <li>Total booking cost</li>
+            </ul>
+        </div>
+        <div class="project__buttons">
+            <a class="project-github-link" href="#" target="_blank"><button >Github </button></a>
+            <a class="project-deployed-link" href="#" target="_blank"><button > Demo Video</button></a>
+        </div>
+    </div>
+</div>
+
+
+   
     
         </div>
         </section>
@@ -509,7 +510,7 @@
 
         <h1 class="section-head" id="git-stats-head">GitHub Statistics & Calender</h1>
 
-        <div class="calendar" id="git-calender">
+        <div class="calendar react-activity-calendar" id="git-calender">
             <!-- Loading stuff -->
            
         </div>
@@ -520,7 +521,7 @@
         <div class="git-perf">
             <img   id="github-streak-stats"  title="🔥 Get streak stats for your profile at git.io/streak-stats" alt="sagarkumarojha streak" src="https://github-readme-streak-stats.herokuapp.com/?user=sagarkumarojha&hide_border=true&theme=react&hide_border=true&bg_color=0D1117"/>
             
-            <img alt="sagarkumarojha Github Stats"  id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=sagarkumarojha&show_icons=true&locale=en&theme=react&hide_border=true&bg_color=0D1117" alt="sagarkumarojha" />
+            <img alt="sagarkumarojha Github Stats"  id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=sagarkumarojha&show_icons=true&locale=en&theme=react&hide_border=true&bg_color=0D1117" />
         </div>
 
         <!-- <div class="git-trophies">    
