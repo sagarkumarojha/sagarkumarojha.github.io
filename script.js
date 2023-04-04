@@ -24,8 +24,22 @@ resume2.addEventListener("click", function(){
 })
 
 // --------------GitHub-Calender--------------------
-var username = "sagarkumarojha";
-GitHubCalendar(".calendar", "sagarkumarojha", { responsive: true });
+ var username = "sagarkumarojha";
+// GitHubCalendar("#git-calender", username,{ responsive: true ,tooltips: true});
+
+
+
+GitHubCalendar(".calendar", username);
+
+// or enable responsive functionality:
+GitHubCalendar(".calendar", username, { responsive: true });
+
+// Use a proxy
+GitHubCalendar(".calendar", username, {
+   proxy (sagarkumarojha) {
+     return fetch(`https://your-proxy.com/github?user=${username}`)
+   }
+}).then(r => r.text())
 
 // ---------Menu responsive-------
 
@@ -48,20 +62,3 @@ const  sr = ScrollReveal ({
    duration: 1500,
    reset: false
 })
-
-sr.reveal('.about-text', {delay:150, origin:'right'});
-sr.reveal('.home-img', {delay:150, origin:'left'});
-
-sr.reveal('.home', {delay:50, origin:'top'});
-
-sr.reveal('#skills_container', {delay:150, origin:'left'});
-
-sr.reveal('#olx', {delay:150, origin:'left'});
-sr.reveal('#max', {delay:150, origin:'right'});
-
-sr.reveal('.calender', {delay:150, origin:'left'});
-sr.reveal('.git-lang', {delay:150, origin:'right'});
-sr.reveal('.git-perf', {delay:150, origin:'left'});
-sr.reveal('.git-trophies', {delay:150, origin:'right'});
-
-sr.reveal('.contact-con', {delay:150, origin:'top'});
