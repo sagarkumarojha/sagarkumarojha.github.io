@@ -301,7 +301,7 @@ span {
 .skills-wrapper{
     width: 90%;
     display: grid;
-    grid-template-columns: repeat(6,1fr);
+    grid-template-columns: repeat(5,1fr);
     margin: auto;
     align-items: center;
     justify-content: center;
@@ -602,9 +602,7 @@ text-align: center;
         transition: 0.3s;
     }
 
-    .skills-wrapper{
-        grid-template-columns: repeat(5,1fr);
-      }
+  
       #projects {
         padding: 0;
     }
@@ -701,7 +699,7 @@ text-align: center;
     }
 
     .skills-wrapper{
-        grid-template-columns: repeat(4,1fr);
+        grid-template-columns: repeat(3,1fr);
       }
     
       .project-card{
