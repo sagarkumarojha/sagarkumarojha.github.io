@@ -24,22 +24,6 @@ resume2.addEventListener("click", function(){
 })
 
 // --------------GitHub-Calender--------------------
- var username = "sagarkumarojha";
-// GitHubCalendar("#git-calender", username,{ responsive: true ,tooltips: true});
-
-
-
-GitHubCalendar(".calendar", username);
-
-// or enable responsive functionality:
-GitHubCalendar(".calendar", username, { responsive: true });
-
-// Use a proxy
-GitHubCalendar(".calendar", username, {
-   proxy (sagarkumarojha) {
-     return fetch(`https://your-proxy.com/github?user=${username}`)
-   }
-}).then(r => r.text())
 
 // ---------Menu responsive-------
 
