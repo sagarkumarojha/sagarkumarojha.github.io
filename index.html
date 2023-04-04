@@ -576,16 +576,6 @@
         </div>
       </div>
     </section>
-
-
-
-
-
-
-
-
-
-
     <section id="git-stats" class="section-bg">
       <h1 class="section-head" id="git-stats-head">
         GitHub Statistics & Calender
@@ -728,17 +718,17 @@ var username = "sagarkumarojha";
 
 
 
-GitHubCalendar(".calendar", username);
+// GitHubCalendar(".calendar", username);
 
-// or enable responsive functionality:
-GitHubCalendar(".calendar", username, { responsive: true });
+// // or enable responsive functionality:
+// GitHubCalendar(".calendar", username, { responsive: true });
 
-// Use a proxy
-GitHubCalendar("#git-calender", username, {
-   proxy (sagarkumarojha) {
-     return fetch(`https://sagarkumarojha.com/github?user=${username}`)
-   }
-}).then(r => r.text())
+// // Use a proxy
+// GitHubCalendar("#git-calender", username, {
+//    proxy (sagarkumarojha) {
+//      return fetch(`https://sagarkumarojha.com/github?user=${username}`)
+//    }
+// }).then(r => r.text())
 
 function openResume(){
     window.open('https://drive.google.com/file/d/1U3Q-wQOstzXbzVU9jkT2Z5_AwseuIH2a/view?usp=share_link');
