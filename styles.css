@@ -558,7 +558,7 @@ text-align: center;
     flex-direction: column;
     position: fixed;
     left: 1%;
-    bottom: 8%;
+    bottom: 2%;
     font-size: 1.5rem;
   }
   .contacts-list :hover {
