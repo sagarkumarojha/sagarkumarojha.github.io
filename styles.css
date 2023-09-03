@@ -221,7 +221,7 @@
     align-items: center;
     grid-gap: 3rem;
   }
-  .about_card img{
+  .home-img{
     width: 100%;
     border-radius: 10%;
   }
