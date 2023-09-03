@@ -38,17 +38,17 @@ window.addEventListener('scroll', ()=>{
 })
 
 
-// const resume1 = document.querySelector("#resume-link-1");
+const resume1 = document.querySelector("#resume-link-1");
 
-// resume1.addEventListener("click", function(){
-//    window.open('https://drive.google.com/file/d/1U3Q-wQOstzXbzVU9jkT2Z5_AwseuIH2a/view?usp=share_link')
-// })
+resume1.addEventListener("click", function(){
+   window.open('https://drive.google.com/file/d/1ELemnXDS_l6Kc1_dEFYaXRJjhyl2yuwZ/view?usp=sharing')
+})
 
-// const resume2 = document.querySelector("#resume-link-2");
+const resume2 = document.querySelector("#resume-button-2");
 
-// resume2.addEventListener("click", function(){
-//    window.open('https://drive.google.com/file/d/1U3Q-wQOstzXbzVU9jkT2Z5_AwseuIH2a/view?usp=share_link')
-// })
+resume2.addEventListener("click", function(){
+   window.open('https://drive.google.com/file/d/1ELemnXDS_l6Kc1_dEFYaXRJjhyl2yuwZ/view?usp=sharing')
+})
 
 // --------------GitHub-Calender--------------------
 

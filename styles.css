@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: "Jost", sans-serif;
     list-style: none;
+    text-align: justify;
     text-decoration: none;
     scroll-behavior: smooth;
   }
@@ -211,14 +212,6 @@
     transition: 0.5s;
   }
   
-  .home-img img {
-    max-width: 100%;
-  
-    width: 350px;
-    height: auto;
-    border-radius: 15%;
-  }
-  
   .about_card {
     height: 100%;
     width: 100%;
@@ -226,7 +219,11 @@
     display: grid;
     grid-template-columns: 40% 60%;
     align-items: center;
-    grid-gap: 1rem;
+    grid-gap: 3rem;
+  }
+  .about_card img{
+    width: 100%;
+    border-radius: 10%;
   }
   
   .about-text h1 {
@@ -327,7 +324,13 @@
     margin-top: 2rem;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
-  
+  .project__left {
+  display: flex;
+  flex-direction: column;
+}
+  .project__img{
+    width :100% ;
+  }
   .project-tech-stack {
     display: inline-flex;
     font-weight: bold;
@@ -337,6 +340,7 @@
     gap: 10px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
+    margin-top: auto;
   }
   
   .project__right {
